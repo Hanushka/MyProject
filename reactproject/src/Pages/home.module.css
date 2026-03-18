@@ -51,6 +51,84 @@
   color: #555;
 }
 
+/* Media Queries */
+
+/* Tablet screens */
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .user-card {
+    width: 100%; 
+  }
+
+  .button {
+    font-size: 1.1em;
+    padding: 8px 10px;
+  }
+
+   .button-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .counter h2 {
+    font-size: 1.6em;
+  }
+
+  .form-container {
+    width: 80%; /* shrink form width */
+    padding: 16px;
+  }
+}
+
+/* Mobile screens  */
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .user-card {
+    width: 100%;
+  }
+
+  .button {
+    font-size: 1em;
+    padding: 6px 8px;
+    max-width: 100px;
+  }
+
+   .button-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px; 
+  }
+
+  .counter h2 {
+    font-size: 1.4em;
+  }
+
+  .counter button {
+    font-size: 1em;
+    padding: 8px 12px;
+  }
+
+  .form-container {
+    width: 95%; 
+    padding: 12px;
+  }
+
+  .form-container h3 {
+    font-size: 1em;
+  }
+
+  .form-container,
+  .form-container button {
+    font-size: 1.1em;
+    padding: 8px;
+  }
+}
 
 
 

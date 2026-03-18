@@ -26,18 +26,28 @@ function Home() {
         />
         <UserCard
           name="SmartWatch"
-          price="R5000"
+          price="9000"
           image="/Assets/images/product1.jpg"
         />
         <UserCard
-          name="Camera" 
-          price="R2000"
+          name="Camera"
+          price="R6000"
           image="/Assets/images/product2.jpg"
         />
         <UserCard
           name="Tablet"
-          price="R3500"
+          price="R4000"
           image="/Assets/images/product3.jpg"
+        />
+        <UserCard
+          name="iPhone"
+          price="R45000"
+          image="/Assets/images/product4.jpg"
+        />
+        <UserCard
+          name="Headphones"
+          price="R1500"
+          image="/Assets/images/product5.jpg"
         />
       </div>
       <Button />
