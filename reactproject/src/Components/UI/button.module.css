@@ -1,0 +1,19 @@
+.button{
+    margin: 20px;
+    color: #fff;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 14px;
+    background-color: rgb(9, 169, 147);
+    font-size: 1.3em;
+    cursor: pointer;
+    max-width: 120px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    margin: 20px auto;
+}
+
+.button:hover{
+    background-color: rgb(7, 134, 115);
+}
