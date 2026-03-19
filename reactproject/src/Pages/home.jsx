@@ -26,7 +26,7 @@ function Home() {
         />
         <UserCard
           name="SmartWatch"
-          price="9000"
+          price="R9000"
           image="/Assets/images/product1.jpg"
         />
         <UserCard
