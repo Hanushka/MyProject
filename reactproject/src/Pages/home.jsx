@@ -5,6 +5,7 @@ import Counter from "../Components/UI/Counter";
 import Button from "../Components/UI/Button";
 import Form from "../Components/UI/Form";
 
+
 function Home() {
   return (
     <div className={styles.home}>
